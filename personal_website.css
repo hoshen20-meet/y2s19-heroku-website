@@ -1,0 +1,61 @@
+
+.column {
+	position: relative;
+	margin-bottom: 200px;
+
+}
+
+#container {
+	background-color: lightblue;
+	
+
+}
+
+#list {
+	text-align: center;
+	font-size: 30px;
+	background-image: url('bg-blue2.png');
+}
+
+#really:hover {
+	color: red;
+
+}
+
+#img-explain {
+	text-align: center;
+}
+
+.row {
+	margin-left: 300px;
+}
+
+
+<<<<<<< HEAD
+@keyframes wheelHueColor {
+    from, to { color: rgb(236,100,75); }
+    10%      { color: rgb(219,10,91); }
+    20%      { color: rgb(174,168,211); }
+    30%      { color: rgb(89,171,227); }
+    40%      { color: rgb(37,116,169); }
+    50%      { color: rgb(3,201,169); }
+    60%      { color: rgb(22,160,133); }
+    70%      { color: rgb(233,212,96); }
+    80%      { color: rgb(243,156,18); }
+    90%      { color: rgb(236,240,241); }
+}
+
+div h1 {
+    color: rgb(236,100,75);
+    animation: wheelHueColor 20s infinite;
+}
+
+
+#click {
+	border: 1px dotted;
+	
+=======
+#click {
+	border: 2px dotted;
+>>>>>>> 4cf6b5bed4f681592b53993c44f1edca3b73bf0a
+}
