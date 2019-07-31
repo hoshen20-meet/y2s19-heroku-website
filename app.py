@@ -1,10 +1,11 @@
-from databases import *
-from flask import Flask, request, redirect, render_template
-from flask import session as login_session
-
+from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return render_template('personal_website.html')
-    
+def hello_world():
+    render_template('personal_website.html')
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
